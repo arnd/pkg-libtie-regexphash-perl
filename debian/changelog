@@ -1,3 +1,9 @@
+libtie-regexphash-perl (0.16-1~credativ1) unstable; urgency=low
+
+  * New upstream release (0.16)
+
+ -- Arnd Hannemann <arnd.hannemann@credativ.de>  Fri, 19 Sep 2014 16:17:10 +0200
+
 libtie-regexphash-perl (0.15-2) unstable; urgency=low
 
   [ gregor herrmann ]
