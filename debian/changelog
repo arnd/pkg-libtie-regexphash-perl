@@ -1,0 +1,96 @@
+libtie-regexphash-perl (0.15-2) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza).
+  * Set Maintainer to Debian Perl Group.
+  * Use dist-based URL in debian/watch.
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Changed: Replace versioned (build-)dependency on
+    perl (>= 5.6.0-{12,16}) with an unversioned dependency on perl (as
+    permitted by Debian Policy 3.8.3).
+
+  [ Ansgar Burchardt ]
+  * Use debhelper 7.
+  * Use Build.PL.
+  * Use source format 3.0 (quilt).
+  * Convert debian/copyright to proposed machine-readable format.
+  * debian/watch: Use extended regular expression to match upstream releases.
+  * Bump Standards-Version to 3.8.4.
+  * Add myself to Uploaders.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sun, 06 Jun 2010 17:38:09 +0900
+
+libtie-regexphash-perl (0.15-1) unstable; urgency=low
+
+  * New upstream release
+  * Updated debian/watch so uupdate will work
+  * Build-Depends-Indep to Build-Depends for lintian
+  * Bumped policy version to 3.7.2.2 (No other changes)
+  * Fixed rules to conditionally ignore make clean error for lintian
+
+ -- Jay Bonci <jaybonci@debian.org>  Wed, 04 Jul 2007 18:00:53 -0400
+
+libtie-regexphash-perl (0.13-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Jay Bonci <jaybonci@debian.org>  Mon, 10 Jan 2005 14:20:06 -0500
+
+libtie-regexphash-perl (0.12-8) unstable; urgency=low
+
+  * Fixes debian/watch file so uscan will actually work
+
+ -- Jay Bonci <jaybonci@debian.org>  Mon, 11 Oct 2004 02:52:09 -0400
+
+libtie-regexphash-perl (0.12-7) unstable; urgency=low
+
+  * Updated maintainer address
+  * Bumped to policy version 3.6.1.0 (no other changes)
+  * Changed rules file to my new standard rules template
+  * Changed copyright url to not be dependant on the module version
+
+ -- Jay Bonci <jaybonci@debian.org>  Thu, 16 Oct 2003 16:05:43 -0400
+
+libtie-regexphash-perl (0.12-6) unstable; urgency=low
+
+  * Updated to debian-policy version 3.5.9
+  * Updated to use debhelper version 4
+
+ -- Jay Bonci <jay@bonci.com>  Wed,  9 Apr 2003 09:33:22 -0400
+
+libtie-regexphash-perl (0.12-5) unstable; urgency=low
+
+  * New section
+  * Shorter build process
+
+ -- Jay Bonci <jay@bonci.com>  Tue,  1 Apr 2003 06:49:48 -0500
+
+libtie-regexphash-perl (0.12-4) unstable; urgency=low
+
+  * Fix to module manpage extension
+
+ -- Jay Bonci <jay@bonci.com>  Wed, 15 Jan 2003 22:54:53 -0500
+
+libtie-regexphash-perl (0.12-3) unstable; urgency=low
+
+  * Policy fix in regards to binary-arch in debian/rules
+
+ -- Jay Bonci <jay@bonci.com>  Thu, 26 Dec 2002 20:32:07 -0500
+
+libtie-regexphash-perl (0.12-2) unstable; urgency=low
+
+  * Cleaned up build process more thanks to algernon.
+  * Clarification in rules and copyright files.
+
+ -- Jay Bonci <jay@bonci.com>  Thu, 26 Dec 2002 10:29:27 -0500
+
+libtie-regexphash-perl (0.12-1) unstable; urgency=low
+
+  * Initial Release
+  * closes: bug#174236
+
+ -- Jay Bonci <jay@bonci.com>  Tue, 24 Dec 2002 13:32:28 -0500
+

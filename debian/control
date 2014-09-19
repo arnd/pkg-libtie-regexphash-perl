@@ -1,0 +1,18 @@
+Source: libtie-regexphash-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jay Bonci <jaybonci@debian.org>, Ansgar Burchardt <ansgar@43-1.org>
+Build-Depends: debhelper (>= 7.3.7~), perl (>= 5.10) | libmodule-build-perl
+Build-Depends-Indep: perl
+Standards-Version: 3.8.4
+Homepage: http://search.cpan.org/dist/Tie-RegexpHash/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libtie-regexphash-perl/
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libtie-regexphash-perl/
+
+Package: libtie-regexphash-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: use regular expressions as hash keys
+ Tie::RegexpHash allows one to use regular expressions as hash keys via 
+ the standard tied hash interfaces in Perl, or through PerlOO methods.
